@@ -1,0 +1,22 @@
+node_modules
+# Keep environment variables out of version control
+.env
+# Ignore Python virtual environment
+venv/
+
+# Hugging Face cache
+hf_cache/
+ai-server/hf_cache/
+
+# Python bytecode and packages
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Large libraries
+*.dylib
+*.so
+*.dll
